@@ -145,6 +145,15 @@
     </complexType>
   </element>
 
+    <element name="inheritance-single-choice">
+        <complexType>
+            <choice>
+                <element name="import" type="tns:import"/>
+                <element name="class" type="tns:class"/>
+            </choice>
+        </complexType>
+    </element>
+
   <complexType name="import">
     <annotation>
       <documentation>import complex type annotation. And this is some extra text to test that line breaking is working correctly.</documentation>

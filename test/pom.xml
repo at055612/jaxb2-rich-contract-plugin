@@ -45,6 +45,7 @@
 					<extension>true</extension>
 					<strict>false</strict>
 					<args>
+						<arg>-Xinheritance</arg>
 						<arg>-Xclone</arg>
 						<arg>-Xfluent-builder</arg>
 						<arg>-Xgroup-contract</arg>
@@ -60,6 +61,12 @@
 							<groupId>net.codesup.util</groupId>
 							<artifactId>jaxb-rich-contract-plugin</artifactId>
 							<version>${project.version}</version>
+						</plugin>
+						<!-- For testing the -XInheritance arg -->
+						<plugin>
+							<groupId>org.jvnet.jaxb</groupId>
+							<artifactId>jaxb-plugins</artifactId>
+							<version>4.0.6</version>
 						</plugin>
 					</plugins>
 				</configuration>

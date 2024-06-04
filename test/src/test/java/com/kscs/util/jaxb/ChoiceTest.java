@@ -22,12 +22,12 @@
  * THE SOFTWARE.
  */
 package com.kscs.util.jaxb;
-/*
+
 import com.kscs.jaxb2.contract.test.Bike;
-import com.kscs.jaxb2.contract.test.ChoiceOfElementsFive;
-import com.kscs.jaxb2.contract.test.ChoiceOfElementsFour;
-import com.kscs.jaxb2.contract.test.ChoiceOfElementsTwo;
 import com.kscs.jaxb2.contract.test.City;
+import com.kscs.jaxb2.contract.test.JavadocAnnotations.ChoiceOfElementsFive;
+import com.kscs.jaxb2.contract.test.JavadocAnnotations.ChoiceOfElementsFour;
+import com.kscs.jaxb2.contract.test.JavadocAnnotations.ChoiceOfElementsTwo;
 import com.kscs.jaxb2.contract.test.Transport;
 import com.kscs.jaxb2.contract.test.Worker;
 import org.junit.Test;
@@ -148,5 +148,3 @@ public class ChoiceTest {
                 .build();
     }
 }
-
-*/
